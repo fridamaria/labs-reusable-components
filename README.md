@@ -1,19 +1,16 @@
-# Technigo React Starter App
+# Labs- Reusable Components
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+Lab assignment during week 16 of the Technigo frontend boot camp.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+## The problem
 
-## Usage
+The task was to create a component from scratch that can be reused multiple times in a project. This component is a top app bar that can take different props to conditionally render it. The example includes a menu icon and a title. A link to twitter and a search section are sent to the app bar as children to the ActionItems div.
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+## Tech
 
-Alternatively, if you don't want a new git repo on your account;
+* React
+* Styled Components
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+## View it live
+
+https://fridamaria-reusable-component.netlify.app/
